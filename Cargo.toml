@@ -1,0 +1,17 @@
+[package]
+name = "hati"
+version = "0.1.0"
+authors = ["msiglreith <m.siglreith@gmail.com>"]
+
+[dependencies]
+assimp = "0.3"
+assimp-sys = "0.3"
+cgmath = "0.16"
+failure = "0.1"
+image = "0.19"
+serde_json = "1.0"
+specs = "0.11"
+time = "0.1"
+winit = "0.14"
+winapi = { version = "0.3", features = ["dxgi1_3", "dxgi1_4", "d3d12", "d3dcommon", "d3dcompiler", "d3d12sdklayers", "synchapi"] }
+wio = "0.2"
